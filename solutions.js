@@ -20,3 +20,17 @@
  * and
  * concat
  */
+//isTrue
+// var x = true
+// function isTrue(y) {
+//         return (y == true);
+// }
+// console.log(isTrue(x));
+
+//isFalse
+// var x = true
+var z = false
+function isFalse(v) {
+    return (v == false);
+}
+console.log(isFalse(z));
