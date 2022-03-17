@@ -21,16 +21,54 @@
  * concat
  */
 //isTrue
-// var x = true
-// function isTrue(y) {
-//         return (y == true);
-// }
-// console.log(isTrue(x));
+var xyy = true
+function isTrue(yxx) {
+    if (yxx === true) {
+        return true;
+    } else {
+        return false
+    }
+}
+console.log(isTrue(xyy));
 
 //isFalse
-// var x = true
-var z = false
-function isFalse(v) {
-    return (v == false);
+var isVal = false;
+function isFalse(val) {
+    if (val === false) {
+        return true
+        } else {
+            return false
+        }
 }
-console.log(isFalse(z));
+console.log(isFalse(isVal));
+
+//not
+var xx1;
+function not(xx){
+        return !xx;
+}
+console.log(not(xx1));
+
+//addOne
+
+function addOne(input3){
+    if (input3 >= 0) {
+        return input3 + 1;
+    }
+}
+console.log(addOne(3));
+
+//isEven
+function isEven(input){
+    if (input % 2 == 0) {
+        return true
+    } else{
+        return false
+    }
+}
+console.log(isEven(2));
+
+//isIdentical
+function isIdentical(x, y){
+
+}
