@@ -26,7 +26,7 @@ function isTrue(yxx) {
     if (yxx === true) {
         return true;
     } else {
-        return false
+        return false;
     }
 }
 console.log(isTrue(xyy));
@@ -50,25 +50,58 @@ function not(xx){
 console.log(not(xx1));
 
 //addOne
-
 function addOne(input3){
-    if (input3 >= 0) {
-        return input3 + 1;
+        return Number(input3) + 1;
     }
-}
 console.log(addOne(-5));
 
 //isEven
 function isEven(input){
-    if (input % 2 == 0) {
-        return true
+    if (input % 2 === 0) {
+        return true;
     } else{
-        return false
+        return false;
     }
 }
 console.log(isEven(2));
 
 //isIdentical
-// function isIdentical(x, y){
-//
-// }
+function isIdentical(x, y){
+    if(x === y) {
+        return true;
+    } else{
+        return false;
+    }
+}
+
+console.log(isIdentical(5, 5));
+
+//isEqual
+function isEqual(yyy, zzz){
+    if(yyy == zzz) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(isEqual(5, 5));
+
+//or
+function or(aaa, bbb){
+    return (aaa || bbb)
+}
+console.log(or());
+
+//and
+function and(ppp, ooo){
+    return (ppp && ooo)
+}
+console.log(and());
+
+
+//concat
+function concat(mmm, nnn){
+    return String(mmm) + String(nnn);
+}
+console.log(concat());
