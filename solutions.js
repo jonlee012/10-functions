@@ -56,7 +56,7 @@ function addOne(input3){
         return input3 + 1;
     }
 }
-console.log(addOne(3));
+console.log(addOne(-5));
 
 //isEven
 function isEven(input){
@@ -69,6 +69,6 @@ function isEven(input){
 console.log(isEven(2));
 
 //isIdentical
-function isIdentical(x, y){
-
-}
+// function isIdentical(x, y){
+//
+// }
